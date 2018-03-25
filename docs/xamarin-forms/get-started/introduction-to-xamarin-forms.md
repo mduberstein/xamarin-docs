@@ -253,9 +253,9 @@ The orientation of the [`StackLayout`](https://developer.xamarin.com/api/type/Xa
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="HelloXamarinFormsWorldXaml.StackLayoutExample2" Padding="20">
   <StackLayout Spacing="10" VerticalOptions="End" Orientation="Horizontal" HorizontalOptions="Start">
-    <Label Text="Stop" BackgroundColor="Red" Font="20" />
-    <Label Text="Slow down" BackgroundColor="Yellow" Font="20" />
-    <Label Text="Go" BackgroundColor="Green" Font="20" />
+    <Label x:Name="red" Text="Stop" BackgroundColor="Red" Font="20" />
+    <Label x:Name="yellow" Text="Slow down" BackgroundColor="Yellow" Font="20" />
+    <Label x:Name="green" Text="Go" BackgroundColor="Green" Font="20" />
   </StackLayout>
 </ContentPage>
 ```
